@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <ol>
+        <h1><li>Jakie standardowo dostępne są czcionki w systemie Windows</li></h1>
+        <ul type="square">
+            <li>Times New Roman (szeryfowa)</li>
+            <li>Arial (bezszeryfowa)</li>
+            <li>Courier New (monotypiczna)</li>
+        </ul>
+        <h1><li>Jakich czcionek dodatkowo dostarcza Internet Explorerem</li></h1>
+        <ul type="circle">
+            <li>Verdana</li>
+            <li>Tahoma</li>
+            <li>'Trebuchet MS',</li>
+            <li>Georgia</li>
+        </ul>
+        <h1><li>Wymień rodziny ogólne</li></h1>
+        <ul type="round">
+            <li>serif - czcionka szeryfowa</li>
+            <li>sans serif - czcionka bezszeryfowa</li>
+            <li>monospace – czcionka o stałej szerokości znaków</li>
+            <li>cursive – czcionka mająca pewne cechy pochyłej</li>
+            <li>fantasy – czcionka fantazyjna</li>
+        </ul>
+        <h1><li>Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy( deklarujemy rodziny czcionek)</li></h1>
+        Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost. Dlatego zwykle rodzinę ogólną podaje się na samym końcu listy nazw czcionek
+        <h1><li>Rodzaje wyrównanie tekstu (cztery, wyliczenie)</li></h1>
+        Wyrównanie tekstu może być: <ol>
+            <li>Do prawej</li>
+            <li>Do lewej</li>
+            <li>Wyśrodkowanie</li>
+            <li>Wyjustowanie</li>
+        </ol>
+        <h1><li>Kolor tekstu</li></h1>
+        Składnia reguły: <br>
+        &nbsp;&nbsp;     selektor {color: kolor;} <br>
+        Wyraz selektor ma zastosowanie do wszystkich elementów.
+        Natomiast jako kolor należy podać definicję koloru.
+        Dzięki temu poleceniu można ustalić dowolny kolor tekstu.
+        <h1><li>dekoracja tekstu</li></h1>
+        Tekst można „udekorować” w sposób następujący: <ol type="a">
+            <li>Podkreślić - (underline)</li>
+            <li>Przekreślić - (line-through)</li>
+            <li>Nadkreślić - (overline)</li>
+            <li>Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink)</li>
+        </ol> <br>
+        Składnia reguły: <br>
+        &nbsp;&nbsp; selektor {text-decoration: dekoracja;}
+        <h1><li>Warianty czcionek</li></h1>
+        <ul type="circle">
+            <li>normal - czcionka normalna</li>
+            <li>small-caps - kapitaliki</li>
+        </ul>
+        <h1><li>Pogrubienie czcionek </li></h1>
+        <ul>
+            <li>normal - czcionka normalna (podstawowa)</li>
+            <li>bold - czcionka pogrubiona</li>
+            <li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800, 900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo wytłuszczonej jak dla poprzedniej wartości w sekwencji</li>
+        </ul>
+        <h1><li>Rozmiar czcionek</li></h1>
+        <ul type="round">
+            <li>xx-small    -najmniejsza</li>
+            <li>x-small -mniejsza</li>
+            <li>small   -mała</li>
+            <li>medium  -średnia</li>
+            <li>large   -duża</li>
+            <li>x-large większa</li>
+            <li>xx-large    -największa</li>
+        </ul>
+        <h1><li>Transformacja tekstu</li></h1>
+        Składnia reguły: <br>
+&nbsp;&nbsp;    selektor {text-transform: transformacja;} <br>
+Wyraz selektor ma zastosowanie do wszystkich elementów.<br> <br>
+transformacja: <br>
+"none" - bez zmian <br>
+"capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie <br>
+"uppercase" - zamiana wszystkich liter na wielkie <br>
+"lowercase" - zamiana wszystkich liter na małe
+        <h1><li>Wcięcia tekstu</li></h1>
+        Składnia reguły: <br>
+&nbsp;&nbsp;selektor {text-indent: wcięcie;} <br><br>
+Wyraz selektor ma zastosowanie do elementów blokowych.
+        <h1><li>Odstęp miedzy wierszami</li></h1>
+        Składnia reguły: <br>
+        &nbsp;&nbsp;selektor {line-height: odstęp;} <br> <br>
+        Wyraz selektor ma zastosowanie do wszystkich elementów.
+        <h1><li>Odstęp między wyrazami</li></h1>
+        Składnia reguły: <br>
+        &nbsp;&nbsp;selektor {word-spacing: odstęp;} <br> <br>
+Wyraz selektor ma zastosowanie do wszystkich elementów.
+        <h1><li>Odstęp między literami</li></h1>
+        Składnia reguły: <br>
+        &nbsp;&nbsp;selektor {letter-spacing: odstęp;} <br> <br>
+        Wyraz selektor ma zastosowanie do wszystkich elementów.
+        <h1><li>Łączenie właściwości czcionek i tekstu</li></h1>
+        Prawidłowa kolejność wartości atrybutów: <ol>
+            <li>font-style</li>
+            <li>font-variant</li>
+            <li>font-weight</li>
+            <li>font-size</li>
+            <li>line-height</li>
+            <li>font-famil</li>
+        </ol>
+        Składnia reguły: <br>
+        &nbsp;&nbsp;selektor {font: wartości atrybutów;} <br><br>
+        Przykład: <br>
+Po wpisaniu na przykład takiej reguły w arkuszu CSS: <br>
+p {font: italic small-caps bold 14px /1cm Arial, Helvetica, Verdana, sans-serif;}
+    </ol>
+</body>
+</html>

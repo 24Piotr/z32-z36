@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <ol>
+        <h1><li>Cel stosowania szablonów HTML 4.01 Transitional</li></h1>
+        Zanim walidator sprawdzi dokument, musi wiedzieć w jakim języku <br>
+        został napisany. Istnieje kilka typów HTML (język znaczników)
+        <h1><li>Opis</li></h1>
+        <ul>
+            <li>Strict - zawiera wszystkie elementy i atrybuty, które nie są zdeprecjonowane <br>
+                (nie deprecated) oraz nie pojawiają się w dokumentach z ramkami (ponadto nie <br>
+                obejmuje elementu IFRAME ani atrybutu target="...")
+                </li>
+            <li>Transitional - zawiera wszystko co w Strict DTD plus elementy i atrybuty <br>
+                zdeprecjonowane oraz element IFRAME i atrybut target="..."</li>
+            <li>Frame Set - zawiera wszystko co w Transitional DTD plus <br>
+                elementy odnoszące się do ramek: FRAME, FRAMESET oraz <br>
+                NOFRAMES (używane na stronach startowych ramek)
+                </li>
+        </ul>
+        <h1><li>Przykłady szablonów HTML 4.01 Transitional</li></h1>
+        <table>
+            <td>
+                <tr>Przykład</tr>
+                <tr>i!DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN” 
+                    “http://www.w3.org/TR/html4/loose.dtd”></td>
+            </td>
+        </table>
+            -w tabeli <br>
+            -wytłumaczenie
+            -dokładny opis
+        <h1><li>Wartości domyślne</li></h1>
+        Jeśli nie podamy żadnej z powyższych wersji DTD, jako domyślna najprawdopodobniej <br>
+        zostanie przyjęta Transitional DTD (w MSIE), ale sposób ten absolutnie nie jest zalecany! W <br>
+        każdym dokumencie HTML, na samym początku, powinna się pojawić deklaracja DTD. <br>
+        Najbezpieczniejszym rozwiązaniem, kiedy kluczowe znaczenie ma kompatybilność wstecz, <br>
+        wydaje się użycie Transitional DTD, chyba że chcemy się ściśle trzymać wytycznych <br>
+        specyfikacji co do znaczników i atrybutów zdeprecjonowanych, wtedy należy zastosować <br>
+        Strict DTD i nie używać tych znaczników ani atrybutów.
+    </ol>
+</body>
+</html>
